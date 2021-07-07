@@ -2,9 +2,9 @@ package org.git;
 
 public class GitDatas {
 	
-	public void tc1() {
+	public void Uname() {
 		
-		System.out.println("test 1");
+		System.out.println("uname");
 	}
 
 	public void tc2() {
@@ -16,7 +16,7 @@ public class GitDatas {
 	public static void main(String[] args) {
 		
 		GitDatas g = new GitDatas();
-		g.tc1();
+		g.Uname();
 		g.tc2();
 	}
 }
