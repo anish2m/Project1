@@ -2,9 +2,9 @@ package org.git;
 
 public class GitDatas {
 	
-	public void tc5() {
+	public void launchBrowser() {
 		
-		System.out.println("test 5");
+		System.out.println("browser launched");
 	}
 
 	public void tc6() {
@@ -16,7 +16,8 @@ public class GitDatas {
 	public static void main(String[] args) {
 		
 		GitDatas g = new GitDatas();
-		g.tc5();
+		g.launchBrowser();
+		//g.tc5();
 		g.tc6();
 	}
 }
