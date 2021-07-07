@@ -2,13 +2,13 @@ package org.git;
 
 public class GitDatas {
 	
-	public void tc1() {
+	public void tc5() {
 		
-		System.out.println("test 1");
+		System.out.println("test 5");
 	}
 
-	public void tc2() {
-		System.out.println("test 2");
+	public void tc6() {
+		System.out.println("test 6");
 		
 
 	}
@@ -16,7 +16,7 @@ public class GitDatas {
 	public static void main(String[] args) {
 		
 		GitDatas g = new GitDatas();
-		g.tc1();
-		g.tc2();
+		g.tc5();
+		g.tc6();
 	}
 }
